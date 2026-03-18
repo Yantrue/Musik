@@ -1,1 +1,47 @@
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: white;
+  font-family: Arial, sans-serif;
+}
 
+.container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.song {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #121212;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.song:hover {
+  background: #1db954;
+}
+
+.lyrics {
+  margin-top: 20px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.lyrics p {
+  margin: 6px 0;
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.lyrics .active {
+  opacity: 1;
+  color: #1db954;
+  font-size: 18px;
+  transform: scale(1.05);
+}
